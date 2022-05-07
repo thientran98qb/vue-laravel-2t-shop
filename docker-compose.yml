@@ -1,0 +1,47 @@
+version: "3"
+
+services:
+  webserver:
+    container_name: 2t_shop
+    image: nginx:alpine
+    restart: unless-stopped
+    ports:
+      - "86:80"
+    volumes:
+      - ./:/var/www/html
+      - ./docker/app.conf:/etc/nginx/conf.d/candidate.conf
+    networks:
+      - app-network
+
+  app:
+    container_name: 2t_shop_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+      - ./docker/php.ini:/usr/local/etc/php/conf.d/local.ini
+    depends_on:
+      - db
+    networks:
+      - app-network
+
+  db:
+    container_name: 2t_shop_db
+    image: mysql:5.7
+    restart: unless-stopped
+    ports:
+      - "3377:3306"
+    environment:
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_ROOT_PASSWORD=secret
+    volumes:
+      - ./storage/mysql-data:/var/lib/mysql
+    networks:
+      - app-network
+
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge
