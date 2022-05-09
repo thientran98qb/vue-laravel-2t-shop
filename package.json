@@ -26,6 +26,8 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
+        "@tailwindcss/forms": "^0.5.1",
+        "tailwindcss-animatecss": "^1.0.7",
         "vee-validate": "^4.5.11"
     }
 }

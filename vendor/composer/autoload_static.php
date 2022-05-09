@@ -163,6 +163,7 @@ class ComposerStaticInita687c183219c1e91f73f0e2e37df8837
             'Doctrine\\Common\\Lexer\\' => 22,
             'Dflydev\\DotAccessData\\' => 22,
             'DeepCopy\\' => 9,
+            'DaveJamesMiller\\Breadcrumbs\\' => 28,
             'Database\\Seeders\\' => 17,
             'Database\\Factories\\' => 19,
         ),
@@ -495,6 +496,10 @@ class ComposerStaticInita687c183219c1e91f73f0e2e37df8837
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
+        'DaveJamesMiller\\Breadcrumbs\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src',
+        ),
         'Database\\Seeders\\' => 
         array (
             0 => __DIR__ . '/../..' . '/database/seeders',
@@ -537,6 +542,7 @@ class ComposerStaticInita687c183219c1e91f73f0e2e37df8837
 
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
+        'App\\Entities\\Post' => __DIR__ . '/../..' . '/app/Entities/Post.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ConfirmPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ConfirmPasswordController.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -561,6 +567,8 @@ class ComposerStaticInita687c183219c1e91f73f0e2e37df8837
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Repositories\\UserRepository' => __DIR__ . '/../..' . '/app/Repositories/UserRepository.php',
+        'App\\View\\Components\\AdminLayout' => __DIR__ . '/../..' . '/app/View/Components/AdminLayout.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/CorsService.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
@@ -669,6 +677,15 @@ class ComposerStaticInita687c183219c1e91f73f0e2e37df8837
         'Cron\\MonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/MonthField.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
+        'DaveJamesMiller\\Breadcrumbs\\BreadcrumbsException' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsException.php',
+        'DaveJamesMiller\\Breadcrumbs\\BreadcrumbsGenerator' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsGenerator.php',
+        'DaveJamesMiller\\Breadcrumbs\\BreadcrumbsManager' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsManager.php',
+        'DaveJamesMiller\\Breadcrumbs\\BreadcrumbsServiceProvider' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/BreadcrumbsServiceProvider.php',
+        'DaveJamesMiller\\Breadcrumbs\\Exceptions\\DuplicateBreadcrumbException' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/Exceptions/DuplicateBreadcrumbException.php',
+        'DaveJamesMiller\\Breadcrumbs\\Exceptions\\InvalidBreadcrumbException' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/Exceptions/InvalidBreadcrumbException.php',
+        'DaveJamesMiller\\Breadcrumbs\\Exceptions\\UnnamedRouteException' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/Exceptions/UnnamedRouteException.php',
+        'DaveJamesMiller\\Breadcrumbs\\Exceptions\\ViewNotSetException' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/Exceptions/ViewNotSetException.php',
+        'DaveJamesMiller\\Breadcrumbs\\Facades\\Breadcrumbs' => __DIR__ . '/..' . '/davejamesmiller/laravel-breadcrumbs/src/Facades/Breadcrumbs.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
         'DeepCopy\\Exception\\CloneException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/CloneException.php',
         'DeepCopy\\Exception\\PropertyException' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/Exception/PropertyException.php',

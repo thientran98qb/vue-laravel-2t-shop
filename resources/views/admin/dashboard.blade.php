@@ -1,5 +1,3 @@
-@extends('admin.layouts.app')
-
-@section('content')
-<example-component></example-component>
-@endsection
+<x-admin-layout>
+    <p>Hello 123</p>
+</x-admin-layout>

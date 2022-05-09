@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   content: [
     './storage/framework/views/*.php',
@@ -6,7 +8,12 @@ module.exports = {
     './resources/**/*.vue',
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
+    extend: {
+        fontFamily: {
+            sans: ["Nunito", ...defaultTheme.fontFamily.sans],
+        },
+    },
+},
+
+plugins: [require("@tailwindcss/forms")],
 }
