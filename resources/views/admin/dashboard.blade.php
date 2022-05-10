@@ -1,3 +1,5 @@
 <x-admin-layout>
-    <p>Hello 123</p>
+    <x-slot name="description">
+        <p>Hello 123</p>
+    </x-slot>
 </x-admin-layout>
