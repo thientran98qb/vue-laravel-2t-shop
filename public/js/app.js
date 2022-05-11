@@ -5278,6 +5278,360 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/UserComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/UserComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -5287,15 +5641,18 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_ExampleComponent_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue");
+/* harmony import */ var _components_admin_UserComponent_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/admin/UserComponent.vue */ "./resources/js/components/admin/UserComponent.vue");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = (__webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js")["default"]);
 window.axios = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
 
+
 new Vue({
   el: '#app',
   components: {
-    ExampleComponent: _components_ExampleComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+    ExampleComponent: _components_ExampleComponent_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    UserComponent: _components_admin_UserComponent_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -27822,6 +28179,45 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/admin/UserComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/admin/UserComponent.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _UserComponent_vue_vue_type_template_id_5689d8d2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./UserComponent.vue?vue&type=template&id=5689d8d2& */ "./resources/js/components/admin/UserComponent.vue?vue&type=template&id=5689d8d2&");
+/* harmony import */ var _UserComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./UserComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/admin/UserComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _UserComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _UserComponent_vue_vue_type_template_id_5689d8d2___WEBPACK_IMPORTED_MODULE_0__.render,
+  _UserComponent_vue_vue_type_template_id_5689d8d2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/admin/UserComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************!*\
   !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
@@ -27838,6 +28234,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/admin/UserComponent.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/admin/UserComponent.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./UserComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/UserComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_UserComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
 /***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
 /*!*************************************************************************************!*\
   !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
@@ -27851,6 +28263,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/UserComponent.vue?vue&type=template&id=5689d8d2&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/admin/UserComponent.vue?vue&type=template&id=5689d8d2& ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserComponent_vue_vue_type_template_id_5689d8d2___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserComponent_vue_vue_type_template_id_5689d8d2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_UserComponent_vue_vue_type_template_id_5689d8d2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./UserComponent.vue?vue&type=template&id=5689d8d2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/UserComponent.vue?vue&type=template&id=5689d8d2&");
 
 
 /***/ }),
@@ -27874,6 +28303,948 @@ var render = function () {
   return _c("div", [_vm._v("Hello")])
 }
 var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/UserComponent.vue?vue&type=template&id=5689d8d2&":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/UserComponent.vue?vue&type=template&id=5689d8d2& ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "w-full overflow-hidden rounded-lg shadow-xs" },
+    [
+      _vm._m(0),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass:
+            "grid px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase border-t dark:border-gray-700 bg-gray-50 sm:grid-cols-9 dark:text-gray-400 dark:bg-gray-800",
+        },
+        [
+          _c("span", { staticClass: "flex items-center col-span-3" }, [
+            _vm._v("\n            Showing 21-30 of 100\n        "),
+          ]),
+          _vm._v(" "),
+          _c("span", { staticClass: "col-span-2" }),
+          _vm._v(" "),
+          _c(
+            "span",
+            { staticClass: "flex col-span-4 mt-2 sm:mt-auto sm:justify-end" },
+            [
+              _c("nav", { attrs: { "aria-label": "Table navigation" } }, [
+                _c("ul", { staticClass: "inline-flex items-center" }, [
+                  _c("li", [
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "px-3 py-1 rounded-md rounded-l-lg focus:outline-none focus:shadow-outline-purple",
+                        attrs: { "aria-label": "Previous" },
+                      },
+                      [
+                        _c(
+                          "svg",
+                          {
+                            staticClass: "w-4 h-4 fill-current",
+                            attrs: {
+                              "aria-hidden": "true",
+                              viewBox: "0 0 20 20",
+                            },
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                d: "M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z",
+                                "clip-rule": "evenodd",
+                                "fill-rule": "evenodd",
+                              },
+                            }),
+                          ]
+                        ),
+                      ]
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(1),
+                  _vm._v(" "),
+                  _vm._m(2),
+                  _vm._v(" "),
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _vm._m(4),
+                  _vm._v(" "),
+                  _vm._m(5),
+                  _vm._v(" "),
+                  _vm._m(6),
+                  _vm._v(" "),
+                  _vm._m(7),
+                  _vm._v(" "),
+                  _c("li", [
+                    _c(
+                      "button",
+                      {
+                        staticClass:
+                          "px-3 py-1 rounded-md rounded-r-lg focus:outline-none focus:shadow-outline-purple",
+                        attrs: { "aria-label": "Next" },
+                      },
+                      [
+                        _c(
+                          "svg",
+                          {
+                            staticClass: "w-4 h-4 fill-current",
+                            attrs: {
+                              "aria-hidden": "true",
+                              viewBox: "0 0 20 20",
+                            },
+                          },
+                          [
+                            _c("path", {
+                              attrs: {
+                                d: "M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z",
+                                "clip-rule": "evenodd",
+                                "fill-rule": "evenodd",
+                              },
+                            }),
+                          ]
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+            ]
+          ),
+        ]
+      ),
+    ]
+  )
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "w-full overflow-x-auto" }, [
+      _c("table", { staticClass: "w-full whitespace-no-wrap" }, [
+        _c("thead", [
+          _c(
+            "tr",
+            {
+              staticClass:
+                "text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800",
+            },
+            [
+              _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Client")]),
+              _vm._v(" "),
+              _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Amount")]),
+              _vm._v(" "),
+              _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Status")]),
+              _vm._v(" "),
+              _c("th", { staticClass: "px-4 py-3" }, [_vm._v("Date")]),
+            ]
+          ),
+        ]),
+        _vm._v(" "),
+        _c(
+          "tbody",
+          {
+            staticClass:
+              "bg-white divide-y dark:divide-gray-700 dark:bg-gray-800",
+          },
+          [
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Hans Burger"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    10x Developer\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 863.45\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Approved\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&facepad=3&fit=facearea&s=707b9c33066bf8808c934c8ab394dff6",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Jolina Angelie"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Unemployed\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 369.95\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-orange-700 bg-orange-100 rounded-full dark:text-white dark:bg-orange-600",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Pending\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/photo-1551069613-1904dbdcda11?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Sarah Curry"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Designer\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 86.00\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-red-700 bg-red-100 rounded-full dark:text-red-100 dark:bg-red-700",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Denied\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/photo-1551006917-3b4c078c47c9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Rulia Joberts"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Actress\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 1276.45\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Approved\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/photo-1546456073-6712f79251bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Wenzel Dashington"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Actor\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 863.45\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-gray-100 dark:bg-gray-700",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Expired\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/photo-1502720705749-871143f0e671?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&s=b8377ca9f985d80264279f277f3a67f5",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Dave Li"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Influencer\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 863.45\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Approved\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Maria Ramovic"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Runner\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 863.45\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Approved\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/photo-1566411520896-01e7ca4726af?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Hitney Wouston"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    Singer\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 863.45\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Approved\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+            _vm._v(" "),
+            _c("tr", { staticClass: "text-gray-700 dark:text-gray-400" }, [
+              _c("td", { staticClass: "px-4 py-3" }, [
+                _c("div", { staticClass: "flex items-center text-sm" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "relative hidden w-8 h-8 mr-3 rounded-full md:block",
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "object-cover w-full h-full rounded-full",
+                        attrs: {
+                          src: "https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+                          alt: "",
+                          loading: "lazy",
+                        },
+                      }),
+                      _vm._v(" "),
+                      _c("div", {
+                        staticClass:
+                          "absolute inset-0 rounded-full shadow-inner",
+                        attrs: { "aria-hidden": "true" },
+                      }),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", [
+                    _c("p", { staticClass: "font-semibold" }, [
+                      _vm._v("Hans Burger"),
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "p",
+                      {
+                        staticClass: "text-xs text-gray-600 dark:text-gray-400",
+                      },
+                      [
+                        _vm._v(
+                          "\n                                    10x Developer\n                                "
+                        ),
+                      ]
+                    ),
+                  ]),
+                ]),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        $ 863.45\n                    "
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-xs" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100",
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Approved\n                        "
+                    ),
+                  ]
+                ),
+              ]),
+              _vm._v(" "),
+              _c("td", { staticClass: "px-4 py-3 text-sm" }, [
+                _vm._v(
+                  "\n                        6/10/2020\n                    "
+                ),
+              ]),
+            ]),
+          ]
+        ),
+      ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "button",
+        {
+          staticClass:
+            "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple",
+        },
+        [_vm._v("\n                            1\n                        ")]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "button",
+        {
+          staticClass:
+            "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple",
+        },
+        [_vm._v("\n                            2\n                        ")]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "button",
+        {
+          staticClass:
+            "px-3 py-1 text-white transition-colors duration-150 bg-purple-600 border border-r-0 border-purple-600 rounded-md focus:outline-none focus:shadow-outline-purple",
+        },
+        [_vm._v("\n                            3\n                        ")]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "button",
+        {
+          staticClass:
+            "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple",
+        },
+        [_vm._v("\n                            4\n                        ")]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [_c("span", { staticClass: "px-3 py-1" }, [_vm._v("...")])])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "button",
+        {
+          staticClass:
+            "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple",
+        },
+        [_vm._v("\n                            8\n                        ")]
+      ),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("li", [
+      _c(
+        "button",
+        {
+          staticClass:
+            "px-3 py-1 rounded-md focus:outline-none focus:shadow-outline-purple",
+        },
+        [_vm._v("\n                            9\n                        ")]
+      ),
+    ])
+  },
+]
 render._withStripped = true
 
 
@@ -40044,7 +41415,7 @@ Vue.compile = compileToFunctions;
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"_from":"axios@^0.21","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"range","registry":true,"raw":"axios@^0.21","name":"axios","escapedName":"axios","rawSpec":"^0.21","saveSpec":null,"fetchSpec":"^0.21"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_shasum":"c67b90dc0568e5c1cf2b0b858c43ba28e2eda575","_spec":"axios@^0.21","_where":"/home/dinhthien/Music/vue-laravel-project/vue-laravel-2t-shop","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundleDependencies":false,"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"deprecated":false,"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
+module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
 
 /***/ })
 
