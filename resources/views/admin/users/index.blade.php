@@ -1,5 +1,6 @@
-<x-admin-layout>
-    <x-slot name="description">
-        <user-component></user-component>
-    </x-slot>
-</x-admin-layout>
+@extends('layouts.admin.app')
+
+@section('content')
+{{ Breadcrumbs::render('user') }}
+<user-component :user-list='@json($users)' />
+@endsection

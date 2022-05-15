@@ -29,8 +29,10 @@
         "@tailwindcss/custom-forms": "^0.2.1",
         "@tailwindcss/forms": "^0.5.1",
         "color": "^4.2.3",
+        "laravel-mix-merge-manifest": "^2.0.0",
         "tailwindcss-animatecss": "^1.0.7",
         "tailwindcss-multi-theme": "^1.0.4",
-        "vee-validate": "^4.5.11"
+        "vee-validate": "^4.5.11",
+        "vue-toasted": "^1.1.28"
     }
 }

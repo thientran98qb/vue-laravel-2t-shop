@@ -19,4 +19,12 @@ class UserService {
     {
         $this->userRepository = $userRepository;
     }
+
+    /**
+     * List user
+     */
+    public function list()
+    {
+        return $this->userRepository->getListUser();
+    }
 }

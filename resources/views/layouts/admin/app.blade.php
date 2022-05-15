@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shop 2T Dashboard</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+    <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+
+    <script src="{{ mix('js/app.js') }}" defer></script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-    <script src="{{ asset('js/init-alpine.js') }}"></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
 </head>
 
 <body>
@@ -132,25 +132,17 @@
                 </div>
             </header>
             <main class="h-full overflow-y-auto">
-                <nav class="bg-gray-100 px-5 py-3 rounded-md w-full">
-                    <ol class="list-reset flex">
-                      <li><a href="#" class="text-blue-600 hover:text-blue-700">Home</a></li>
-                      <li><span class="text-gray-500 mx-2">/</span></li>
-                      <li><a href="#" class="text-blue-600 hover:text-blue-700">Library</a></li>
-                      <li><span class="text-gray-500 mx-2">/</span></li>
-                      <li class="text-gray-500">Data</li>
-                    </ol>
-                </nav>
-
                 <div class="container px-6 mx-auto grid">
-                    {{ $slot }}
                     <div id="app">
-                        {{ $description ?? '' }}
+                        @yield('content')
                     </div>
                 </div>
             </main>
         </div>
     </div>
+
+    <script src="{{ asset('js/init-alpine.js') }}"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </body>
 
 </html>
