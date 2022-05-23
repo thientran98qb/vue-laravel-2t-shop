@@ -19,7 +19,10 @@ class UserRepository extends BaseRepository{
     public function getListUser()
     {
         $query = $this->model->select(
+            'name',
             'email',
+            'phone',
+            'status'
         );
 
         return $query->orderByDesc('created_at')->get();

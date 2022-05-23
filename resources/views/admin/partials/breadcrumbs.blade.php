@@ -1,6 +1,6 @@
 @if (count($breadcrumbs))
 
-<nav class="bg-gray-100 px-5 py-3 rounded-md w-full">
+<nav class="bg-gray-100 px-5 py-3 mb-3 rounded-md w-full">
     <ol class="list-reset flex">
         @foreach ($breadcrumbs as $breadcrumb)
 

@@ -1,6 +1,8 @@
 @extends('layouts.admin.app')
 
+@section('breadscrumbs')
+    {{ Breadcrumbs::render('user') }}
+@endsection
 @section('content')
-{{ Breadcrumbs::render('user') }}
-<user-component :user-list='@json($users)' />
+    <user-component :user-list='@json($users)' />
 @endsection

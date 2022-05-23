@@ -132,6 +132,7 @@
                 </div>
             </header>
             <main class="h-full overflow-y-auto">
+                @yield('breadscrumbs')
                 <div class="container px-6 mx-auto grid">
                     <div id="app">
                         @yield('content')

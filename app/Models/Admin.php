@@ -2,13 +2,14 @@
 
 namespace App\Models;
 
+use App\Models\Relationships\AdminRelationship;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Admin extends Authenticatable
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes, AdminRelationship;
 
     /**
      * The attributes that are mass assignable.
@@ -19,6 +20,8 @@ class Admin extends Authenticatable
         'name',
         'email',
         'password',
+        'phone',
+        'status'
     ];
 
     /**
