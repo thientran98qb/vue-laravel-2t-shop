@@ -50,9 +50,10 @@ RUN cd /var/www/html
 RUN chmod -R 775 storage
 RUN chmod -R 775 bootstrap
 
-RUN composer install --ignore-platform-reqs
+RUN composer install --ignore-platform-reqs --prefer-dist --no-scripts --no-progress --no-interaction --no-dev --no-autoloader
+RUN composer dump-autoload --optimize --apcu --no-dev
 RUN php artisan key:generate
-RUN php artisan config:cache
+RUN php artisan config:clear
 
 # Expose port 9000 and start php-fpm server
 EXPOSE 9000
