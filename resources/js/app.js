@@ -3,8 +3,8 @@ require('./bootstrap');
 window.Vue = require('vue').default;
 window.axios = require("axios");
 import Toasted from "vue-toasted";
-import ExampleComponent from "./components/ExampleComponent.vue";
 import UserComponent from "./components/admin/UserComponent.vue";
+import CreateUserComponent from "./components/admin/CreateUserComponent.vue"
 import { VuejsDatatableFactory } from 'vuejs-datatable';
 Vue.use( VuejsDatatableFactory );
 Vue.use(Toasted);
@@ -12,7 +12,7 @@ Vue.use(Toasted);
 new Vue({
     el: '#app',
     components: {
-        ExampleComponent,
-        UserComponent
+        UserComponent,
+        CreateUserComponent
     }
 });

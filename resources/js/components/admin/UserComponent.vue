@@ -1,9 +1,9 @@
 <template>
     <div class="w-full overflow-hidden rounded-lg shadow-xs">
        <div class="float-right">
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <a href="/admin/user/create" class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                 Add User
-            </button>
+            </a>
        </div>
        <data-table
             :columns="columns"
@@ -54,7 +54,7 @@
                             </td>
                             <td class="px-4 py-3 text-xs">
                                 <span class="px-2 py-1 font-semibold leading-tight text-green-700 bg-green-100 rounded-full dark:bg-green-700 dark:text-green-100">
-                                    Approved
+                                    {{ user.status == 1 ? 'Approved' : 'Pending' }}
                                 </span>
                             </td>
                             <td class="px-4 py-3 text-sm">

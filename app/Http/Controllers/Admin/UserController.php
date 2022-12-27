@@ -31,7 +31,15 @@ class UserController extends Controller
     public function index(): View
     {
         $users = $this->userService->list();
-        
+
         return view('admin.users.index', compact('users'));
+    }
+
+    /**
+     * @return View
+     */
+    public function create(): View
+    {
+        return view('admin.users.create');
     }
 }
