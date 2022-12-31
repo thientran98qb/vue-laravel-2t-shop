@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\Auth\AuthController;
+use App\Http\Controllers\Api\TagController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,13 +21,10 @@ Route::group([
     'prefix' => 'auth'
 ], function() {
     Route::post('/login', [AuthController::class, 'login']);
+    Route::post('/logout', [AuthController::class, 'logout']);
+    Route::post('/refresh', [AuthController::class, 'refresh']);
 });
 
-/**
- * Login Api
- * {
- *  email, password
- * }
- * return info
- */
-
+Route::middleware('jwt.auth')->group(function () {
+    Route::get('/tags', [TagController::class, 'getTags']);
+});
