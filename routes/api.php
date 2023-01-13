@@ -26,5 +26,8 @@ Route::group([
 });
 
 Route::middleware('jwt.auth')->group(function () {
-    Route::get('/tags', [TagController::class, 'getTags']);
+    Route::group(['prefix' => 'tag'], function() {
+        Route::get('/lists', [TagController::class, 'getTags']);
+        Route::post('/', [TagController::class, 'store']);
+    });
 });

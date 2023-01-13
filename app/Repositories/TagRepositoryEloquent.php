@@ -4,8 +4,9 @@ namespace App\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use App\Repositories\TagRepository;
-use App\Entities\Tag;
+use App\Repositories\Interfaces\TagRepository;
+use App\Models\Tag;
+use App\Presenters\TagPresenter;
 use App\Validators\TagValidator;
 
 /**
@@ -15,6 +16,11 @@ use App\Validators\TagValidator;
  */
 class TagRepositoryEloquent extends BaseRepository implements TagRepository
 {
+    public function presenter()
+    {
+        return TagPresenter::class;
+    }
+
     /**
      * Specify Model class name
      *
@@ -23,14 +29,6 @@ class TagRepositoryEloquent extends BaseRepository implements TagRepository
     public function model()
     {
         return Tag::class;
-    }
-
-    /**
-     * Get all tag name
-     */
-    public function getTags()
-    {
-        return $this->model->get(['name']);
     }
 
     /**

@@ -1,18 +1,14 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Repositories\Interfaces;
 
 use Prettus\Repository\Contracts\RepositoryInterface;
 
 /**
  * Interface TagRepository.
  *
- * @package namespace App\Repositories;
+ * @package namespace App\Repositories\Interface;
  */
 interface TagRepository extends RepositoryInterface
 {
-    /**
-     * Get all tag name
-     */
-    public function getTags();
 }
